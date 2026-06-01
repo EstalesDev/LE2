@@ -1,0 +1,32 @@
+body {
+   background-color: #2C4491;
+   font-family: 'Times New Roman', Times, serif;
+}
+#wrapper {
+    border: 1px solid #000;
+    background-color: aliceblue;
+    min-height: 100%;
+    margin: 5px;
+}
+.header {
+    border: 1px solid #000;
+    background-color: #ecf5eb;
+    height: 300px;
+}
+.main-navigation {
+    background-color: rgb(178, 201, 253);
+    height: 70px;
+    text-align: center;
+    color: #051077;
+}
+.main-navigation a {
+    text-align: center;
+    color: #051077;
+    text-decoration: underline;
+    transition: color 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+}
+.main-navigation a:hover {
+    color: black;
+    transform: scale(1.1);
+}
