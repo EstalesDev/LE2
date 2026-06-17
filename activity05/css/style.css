@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(48, 39, 29);
+}
+
+.wrapper {
+    width: 80%;
+    border: 1px solid #000;
+    margin: 0 auto;
+    min-height: 100px;
+}
+
+.header {
+    background-image: url(../image/pattern.png);
+    min-height: 100px;
+}
